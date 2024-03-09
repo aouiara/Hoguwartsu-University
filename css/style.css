@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+English&display=swap');
+
+
+
+.body-home 
+{
+    background: url(../img/bgCover.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+.body-reg
+{
+    background: url(../img/bgReg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.body-donereg
+{
+    background: url(../img/donereg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+.body-login
+{
+    background: url(../img/bgLogin.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+.body-dash
+{
+    background: url(../img/dashboard.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+.black-fill
+{
+    background: rgba(0, 0, 0, 0.6);
+    min-height: 100vh;
+}
+#homeNav
+{
+    background: rgba(255, 255, 255, 0.7) !important;
+}
+a.navbar-nav.active, a.nav-link:hover, a.nav-link:active 
+{
+    font-size: 20px;
+    font-family: 'IM Fell English', serif !important;
+    color: #5C4033 !important;
+}
+nav-link
+{
+    font-size: 20px;
+    font-family: 'IM Fell English', serif !important;
+    color: #5C4033 !important;
+}
+.welcome-text
+{
+    min-height: 80vh;
+    border-radius: 10px;
+}
+.welcome-text img
+{
+    width: 500px;
+}
+.welcome-text h4
+{
+    color: #eee;
+    font-size: 51px;
+    font-family: 'IM Fell English', serif;
+}
+.welcome-text p
+{
+    color: #eee;
+    font-size: 20px;
+    font-family: 'IM Fell English', serif;
+}
+.phpecho
+{
+    color: #eee;
+    font-size: 100px;
+    font-family: 'IM Fell English', serif;
+}
+.table-light
+{
+    background: rgba(255, 255, 255, 0.7) !important;
+}
+.alert-style 
+{
+    font-family: 'IM Fell English', serif;
+    font-size: 25px;
+    color: white;
+    padding: 5px;
+    background-color: #f44336; 
+    margin-bottom: 5px;
+}
+.closebtn-style 
+{
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.dashboard-text
+{
+    min-height: 10vh;
+    border-radius: 5px;
+}.dashboard-text img
+{
+    width: 100px;
+}
+.dashboard-text h4
+{
+    color: #eee;
+    font-size: 40px;
+    font-family: 'IM Fell English', serif;
+}
+.reg-text
+{
+    min-height: 20vh;
+    border-radius: 10px;
+}
+.reg-text img
+{
+    width: 400px;
+}
+.reg-text h4
+{
+    color: #eee;
+    font-size: 50px;
+    font-family: 'IM Fell English', serif;
+}
+.table
+{
+    background: rgba(255, 255, 255, 0.7) !important;
+}
+.watermark
+{
+    position: absolute;
+    justify-content: center;
+    display: flex;
+}
+.watermark img
+{
+    top: 50%;
+    bottom: 0;
+    left: 0;
+    right: 50%;
+    z-index: 3;
+    opacity: 0.3;
+    width: 450px;
+}
+.watermark h4
+{
+    color: #000000;
+    font-size: 50px;
+    font-family: 'IM Fell English', serif;
+    opacity: 0;
+    top: 50%;
+}
+.body-adminLogin
+{
+    background: url(../img/admin.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+.logout-text
+{
+    color: #eee;
+    font-size: 30px;
+    font-family: 'IM Fell English', serif;
+    position: absolute;
+    top: 100px;
+    right: 100px;
+}
