@@ -1,3 +1,3 @@
 # Hoguwartsu-University
-Storage consuming (will update optimized version soon)
+Advance Database Course Project
 College database management system
